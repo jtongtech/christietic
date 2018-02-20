@@ -3,7 +3,7 @@ require_relative "tictactoe.rb"
 
 get '/' do
 	winner_result = " "
-	erb :home
+	"hello world"
 end
 
 post '/board' do 
